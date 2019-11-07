@@ -1,3 +1,17 @@
 .App {
-  text-align: center;
+  margin: 1em;
+}
+
+#intro-heading {
+  font-size: 1em;
+  text-align: justify;
+}
+
+#inequality-logo {
+  width: 5em;
+}
+
+ul {
+  background-color: lightgray;
+  width: 50%;
 }
