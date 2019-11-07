@@ -10,3 +10,5 @@ As I built this idea, I also found the perfect excuse to bring awareness to the 
 * Optional Step 5 - Add a nav bar with `NavLink`
 
 # Improving user experience #
+* Add a button to have your user navigate to different pages
+* use `history.push`
