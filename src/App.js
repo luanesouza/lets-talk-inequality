@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import GenderGapFacts from './components/GenderGapFacts';
 import AgeGapFacts from './components/AgeGapFacts';
+import { Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
 
-class App extends Component () {
+class App extends Component {
   render() {
+    console.log(this.props);
   return (
     <main className="App">
       <header>
@@ -20,4 +22,4 @@ class App extends Component () {
   )}
 }
 
-export default App;
+export default withRouter(App);
